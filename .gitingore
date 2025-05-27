@@ -1,0 +1,83 @@
+# === Python ignores ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+backend/venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Project-specific ===
+# Ignore backup files or temp files
+*.bak
+*.tmp
+
+# === Do NOT ignore your model file ===
+!backend/*.pth
